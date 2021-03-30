@@ -21,7 +21,6 @@ iframe {
   width: 100%;
   height: 100%;
   z-index: 1;
-  transform: translate(-50%,-50%) scale();
 }
 
 .content__buton {
@@ -55,13 +54,4 @@ iframe {
   border-radius: 50%;
   background: #1875f0;
   color: white;
-}
-
-.popup.active .overlay {
-  display: block;
-}
-
-.popup.active .content__buton {
-  transform: all 300ms ease-in-out;
-  transform: translate(-50%,-50%) scale(1);
 }
