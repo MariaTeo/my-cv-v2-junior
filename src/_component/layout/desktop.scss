@@ -27,15 +27,19 @@
     position: relative;
     top: 152px;  
   }
+  .icon__menu{
+    visibility: hidden;
+  }
   .menu__list {
-    position: sticky;
-    margin-right: -1852px;
-    margin-top: 60px;
+    margin-top: 20px;
+    display: block;
+    margin-left: 1144px;
   }
   .grid__port,
   .box__with-shadow {
     width: 88%;
   }
+  .data__buttons,
   .proud_box,
   .data__stat-list,
   .data__project-item,
